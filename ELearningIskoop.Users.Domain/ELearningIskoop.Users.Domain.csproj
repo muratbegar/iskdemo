@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Enums\**" />
+    <Compile Remove="Events\**" />
+    <Compile Remove="Manager\**" />
+    <Compile Remove="NewFolder1\**" />
+    <Compile Remove="Repositories\**" />
+    <EmbeddedResource Remove="Enums\**" />
+    <EmbeddedResource Remove="Events\**" />
+    <EmbeddedResource Remove="Manager\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="Repositories\**" />
+    <None Remove="Enums\**" />
+    <None Remove="Events\**" />
+    <None Remove="Manager\**" />
+    <None Remove="NewFolder1\**" />
+    <None Remove="Repositories\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ELearningIskoop.BuildingBlocks.Domain\ELearningIskoop.BuildingBlocks.Domain.csproj" />
+    <ProjectReference Include="..\ELearningIskoop.Shared.Domain\ELearningIskoop.Shared.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
