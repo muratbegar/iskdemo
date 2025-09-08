@@ -38,7 +38,7 @@ namespace ELearningIskoop.Courses.Application.Queries.GetCourse
                 ObjectId = course.ObjectId,
                 Title = course.Title,
                 Description = course.Description,
-                InstructorName = course.InstructorName.FullName,
+                InstructorName = course.InstructorName.FirstName + course.InstructorName.LastName,
                 InstructorEmail = course.InstructorEmail.Value,
                 Price = course.Price.Amount,
                 Currency = course.Price.Currency,

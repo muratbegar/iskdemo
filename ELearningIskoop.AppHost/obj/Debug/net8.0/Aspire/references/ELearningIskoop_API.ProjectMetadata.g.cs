@@ -7,5 +7,5 @@ namespace Projects;
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
 public class ELearningIskoop_API : global::Aspire.Hosting.IProjectMetadata
 {
-    public string ProjectPath => """C:\Users\muratbegar\source\repos\MBIskoopElearning\elaerningiskoop\ELearningIskoop.API\ELearningIskoop.API.csproj""";
+    public string ProjectPath => """C:\Users\muratbegar\source\repos\mb\ELearningIskoop.API\ELearningIskoop.API.csproj""";
 }

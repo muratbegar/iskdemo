@@ -13,7 +13,7 @@ namespace ELearningIskoop.Users.Infrastructure.Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<Role> builder)
         {
-            builder.ToTable("Roles");
+            builder.ToTable("Roles", "users");
 
             builder.HasKey(x => x.ObjectId);
 
@@ -24,9 +24,11 @@ namespace ELearningIskoop.Users.Infrastructure.Persistence.Configurations
             builder.Property(x => x.Description).IsRequired().HasMaxLength(500);
 
             builder.HasMany(x => x.UserRoles).WithOne(ur => ur.Role).HasForeignKey(rp => rp.RoleId);
-            builder.HasMany(x => x.Permissions).WithOne(rp => rp.Role).HasForeignKey(rp => rp.RoleId)
+            // Permission relationship
+            builder.HasMany(r => r.Permissions)
+                .WithOne(p => p.Role)
+                .HasForeignKey(p => p.RoleId)
                 .OnDelete(DeleteBehavior.Cascade);
-            builder.HasIndex(x => x.NormalizedName).IsUnique().HasDatabaseName("IX_Roles_NormalizedName");
         }
     }
 

@@ -18,6 +18,8 @@ namespace ELearningIskoop.Users.Domain.Repos
         Task<Role?> GetByIdAsync(int id, CancellationToken cancellationToken = default);
         Task<IEnumerable<Role>> GetAllAsync(CancellationToken cancellationToken = default);
 
+        Task<IEnumerable<Role>> SearchAsync(string searchTerm);
+
         Task<IEnumerable<Role>> GetPagedAsync(int pageNumber, int pageSize,
             CancellationToken cancellationToken = default);
 
@@ -47,7 +49,7 @@ namespace ELearningIskoop.Users.Domain.Repos
 
 
         Task<IEnumerable<Role>> GetDeletedAsync(CancellationToken cancellationToken = default);
-
+        Task<bool> NameExistsAsync(string name);
     }
 
 }

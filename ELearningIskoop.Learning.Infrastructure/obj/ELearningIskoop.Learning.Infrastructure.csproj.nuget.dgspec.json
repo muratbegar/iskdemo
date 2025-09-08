@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Learning.Infrastructure\\ELearningIskoop.Learning.Infrastructure.csproj": {}
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Learning.Infrastructure\\ELearningIskoop.Learning.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Learning.Infrastructure\\ELearningIskoop.Learning.Infrastructure.csproj": {
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Learning.Infrastructure\\ELearningIskoop.Learning.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Learning.Infrastructure\\ELearningIskoop.Learning.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Learning.Infrastructure\\ELearningIskoop.Learning.Infrastructure.csproj",
         "projectName": "ELearningIskoop.Learning.Infrastructure",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Learning.Infrastructure\\ELearningIskoop.Learning.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Learning.Infrastructure\\ELearningIskoop.Learning.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Learning.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Learning.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",

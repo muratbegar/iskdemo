@@ -8,6 +8,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using ELearningIskoop.Shared.Domain.ValueObjects;
 using ELearningIskoop.Users.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
@@ -130,10 +131,14 @@ namespace ELearningIskoop.Users.Infrastructure.Repositories
                 .ToListAsync(cancellationToken);
         }
 
-        public async Task<User?> GetByEmailAsync(string email, CancellationToken cancellationToken = default)
+        public async Task<User?> GetByEmailAsync(Email email, CancellationToken cancellationToken = default)
         {
+            // ÇÖZÜM 1: Direkt Value Object karşılaştırması
             return await _context.Users
-                .FirstOrDefaultAsync(u => u.Email.Value == email, cancellationToken);
+                .Include(u => u.UserRoles)
+                .ThenInclude(ur => ur.Role)
+                .Include(u => u.RefreshTokens)
+                .FirstOrDefaultAsync(u => u.Email == email);
         }
 
         public async Task<User?> GetByUsernameAsync(string username, CancellationToken cancellationToken = default)
@@ -144,11 +149,23 @@ namespace ELearningIskoop.Users.Infrastructure.Repositories
 
         public async Task<User?> GetByIdWithRolesAsync(int userId, CancellationToken cancellationToken = default)
         {
-            return await _context.Users
+            var user = await _context.Users
                 .Include(u => u.UserRoles)
                 .ThenInclude(ur => ur.Role)
-                .ThenInclude(r => r.Permissions)
                 .FirstOrDefaultAsync(u => u.ObjectId == userId, cancellationToken);
+
+            if (user != null)
+            {
+                // Permissions'ı ayrıca yükle
+                foreach (var userRole in user.UserRoles)
+                {
+                    await _context.Entry(userRole.Role)
+                        .Collection(r => r.Permissions)
+                        .LoadAsync(cancellationToken);
+                }
+            }
+
+            return user;
         }
 
         public async Task<User?> GetByIdWithTokensAsync(int userId, CancellationToken cancellationToken = default)
@@ -177,6 +194,64 @@ namespace ELearningIskoop.Users.Infrastructure.Repositories
         {
             return !await _context.Users
                 .AnyAsync(u => u.Username == username, cancellationToken);
+        }
+
+        public async Task<(List<User> Users, int TotalCount)> SearchAsync(string? searchTerm, int pageNumber, int pageSize, string? sortBy, bool sortDescending,
+            CancellationToken cancellationToken)
+        {
+            var query = _context.Users.AsQueryable();
+
+            // Silinmemiş kullanıcılar
+            query = query.Where(u => !u.IsDeleted);
+
+            // Filtreleme
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                query = query.Where(u =>
+                    u.Username.Contains(searchTerm) ||
+                    u.Email != null && u.Email.Value.Contains(searchTerm) ||
+                    u.Name != null && u.Name.FirstName.Contains(searchTerm) ||
+                    u.Name != null && u.Name.LastName.Contains(searchTerm));
+            }
+
+            // Total count
+            var totalCount = await query.CountAsync(cancellationToken);
+
+            // Sıralama
+            query = sortBy?.ToLower() switch
+            {
+                "email" => sortDescending
+                    ? query.OrderByDescending(u => u.Email.Value)
+                    : query.OrderBy(u => u.Email.Value),
+
+                "username" => sortDescending
+                    ? query.OrderByDescending(u => u.Username)
+                    : query.OrderBy(u => u.Username),
+
+                "firstname" => sortDescending
+                    ? query.OrderByDescending(u => u.Name.FirstName)
+                    : query.OrderBy(u => u.Name.FirstName),
+
+                "lastname" => sortDescending
+                    ? query.OrderByDescending(u => u.Name.LastName)
+                    : query.OrderBy(u => u.Name.LastName),
+
+                "createdat" => sortDescending
+                    ? query.OrderByDescending(u => u.CreatedAt)
+                    : query.OrderBy(u => u.CreatedAt),
+
+                _ => sortDescending
+                    ? query.OrderByDescending(u => u.Username)
+                    : query.OrderBy(u => u.Username)
+            };
+
+            // Sayfalama
+            var users = await query
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync(cancellationToken);
+
+            return (users, totalCount);
         }
     }
 

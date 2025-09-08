@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ELearningIskoop.Users.Infrastructure\ELearningIskoop.Users.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

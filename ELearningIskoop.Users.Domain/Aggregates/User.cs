@@ -26,18 +26,17 @@ namespace ELearningIskoop.Users.Domain.Aggregates
         private User(Email email, PersonName name, string passwordHash, int? createdBy = null)
         {
             ObjectId = 0;
-            Email = email;
-            Name = name;
+            Email = email ?? throw new ArgumentNullException(nameof(email));
+            Name = name ?? throw new ArgumentNullException(nameof(name));
             Username = email.Value.Split('@')[0];
-            Status = UserStatus.Inactive;//Email doğrulması bekliyor
+            Status = UserStatus.Inactive;
             SecurityStamp = GenerateSecurityStamp();
             CreatedBy = createdBy;
             CreatedAt = DateTime.UtcNow;
             FailedLoginAttempts = 0;
-
         }
         //Properties
-        public Email Email { get; private set; } = null;
+        public Email Email { get; private set; } = null!;
         public PersonName Name { get; private set; } = null;
         public string Username { get; private set; } = string.Empty;
 
@@ -76,7 +75,7 @@ namespace ELearningIskoop.Users.Domain.Aggregates
 
             var hashedPassword = HashedPassword.Create(plainPassword);
             var user = new User(email, name, hashedPassword.Hash, createdBy);
-
+            user.Password = hashedPassword;
             user.AddDomainEvent(new UserCreatedDomainEvent(user.ObjectId, email));
             return user;
         }

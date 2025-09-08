@@ -1,6 +1,9 @@
-﻿using ELearningIskoop.BuildingBlocks.Domain;
+﻿using ELearningIskoop.BuildingBlocks.Application.Services;
+using ELearningIskoop.BuildingBlocks.Domain;
 using ELearningIskoop.Users.Domain.Repos;
+using ELearningIskoop.Users.Infrastructure.Persistence;
 using ELearningIskoop.Users.Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -8,8 +11,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ELearningIskoop.Users.Infrastructure.Persistence;
-using Microsoft.EntityFrameworkCore;
 
 namespace ELearningIskoop.Users.Infrastructure.Extensions
 {
@@ -21,7 +22,7 @@ namespace ELearningIskoop.Users.Infrastructure.Extensions
             // DbContext
             services.AddDbContext<UserDbContext>(options =>
             {
-                var connectionString = configuration.GetConnectionString("UserConnection");
+                var connectionString = configuration.GetConnectionString("ElearningIskoop");
                 options.UseNpgsql(connectionString, builder =>
                 {
                     builder.MigrationsAssembly(typeof(UserDbContext).Assembly.FullName);
@@ -35,10 +36,12 @@ namespace ELearningIskoop.Users.Infrastructure.Extensions
                 }
             });
 
+
             // Repositories
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IRoleRepository, RoleRepository>();
-
+            services.AddScoped<IUserEmailVerificationRepository, UserEmailVerificationRepository>();
+            services.AddScoped<IPasswordResetRepository, PasswordResetRepository>();
             // Unit of Work
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 

@@ -875,6 +875,26 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
+          "Microsoft.AspNetCore.WebUtilities": "2.3.0",
+          "Microsoft.Extensions.ObjectPool": "8.0.11",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Net.Http.Headers": "2.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -958,6 +978,23 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Microsoft.AspNetCore.WebUtilities/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Http.Headers": "2.3.0",
+          "System.Text.Encodings.Web": "8.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {
+            "related": ".xml"
+          }
+        }
       },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
         "type": "package",
@@ -1492,7 +1529,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -1505,7 +1542,7 @@
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection.AutoActivation/8.10.0": {
@@ -1843,7 +1880,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.ObjectPool/8.0.10": {
+      "Microsoft.Extensions.ObjectPool/8.0.11": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.ObjectPool.dll": {
@@ -2150,6 +2187,23 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Net.Http.Headers/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "System.Buffers": "4.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {
             "related": ".xml"
           }
         }
@@ -2818,6 +2872,15 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "System.Buffers/4.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
@@ -3256,6 +3319,7 @@
           "FluentValidation.DependencyInjectionExtensions": "11.8.1",
           "MediatR": "12.2.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
           "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
           "Newtonsoft.Json": "13.0.3",
           "Serilog": "3.1.1",
@@ -3284,6 +3348,25 @@
         },
         "runtime": {
           "bin/placeholder/ELearningIskoop.BuildingBlocks.Domain.dll": {}
+        }
+      },
+      "ELearningIskoop.BuildingBlocks.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": "9.3.0",
+          "ELearningIskoop.BuildingBlocks.Application": "1.0.0",
+          "Microsoft.AspNetCore.Http": "2.3.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
+          "Microsoft.EntityFrameworkCore": "8.0.18",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.18",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/ELearningIskoop.BuildingBlocks.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ELearningIskoop.BuildingBlocks.Infrastructure.dll": {}
         }
       },
       "ELearningIskoop.Courses.Application/1.0.0": {
@@ -3319,7 +3402,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": "8.2.2",
+          "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": "9.3.0",
           "ELearningIskoop.BuildingBlocks.Domain": "1.0.0",
           "ELearningIskoop.Courses.Domain": "1.0.0",
           "ELearningIskoop.Shared.Domain": "1.0.0",
@@ -3327,8 +3410,8 @@
           "Microsoft.EntityFrameworkCore": "8.0.18",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.10"
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
         },
         "compile": {
           "bin/placeholder/ELearningIskoop.Courses.Infrastructure.dll": {}
@@ -3343,6 +3426,7 @@
         "dependencies": {
           "ELearningIskoop.BuildingBlocks.Domain": "1.0.0",
           "Microsoft.AspNetCore.Cryptography.KeyDerivation": "8.0.18",
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.18",
           "PBKDF2.NET": "2.0.0"
         },
         "compile": {
@@ -3357,10 +3441,11 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "ELearningIskoop.BuildingBlocks.Application": "1.0.0",
+          "ELearningIskoop.BuildingBlocks.Infrastructure": "1.0.0",
           "ELearningIskoop.Users.Domain": "1.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
-          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2",
           "System.IdentityModel.Tokens.Jwt": "8.13.1"
         },
         "compile": {
@@ -3388,15 +3473,15 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": "8.2.2",
+          "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": "9.3.0",
           "ELearningIskoop.Users.Application": "1.0.0",
           "ELearningIskoop.Users.Domain": "1.0.0",
           "MediatR": "12.2.0",
           "Microsoft.EntityFrameworkCore": "8.0.18",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.10"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
         },
         "compile": {
           "bin/placeholder/ELearningIskoop.Users.Infrastructure.dll": {}
@@ -4485,6 +4570,19 @@
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
     },
+    "Microsoft.AspNetCore.Http/2.3.0": {
+      "sha512": "I9azEG2tZ4DDHAFgv+N38e6Yhttvf+QjE2j2UYyCACE7Swm5/0uoihCMWZ87oOZYeqiEFSxbsfpT71OYHe2tpw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.xml",
+        "microsoft.aspnetcore.http.2.3.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
       "sha512": "39r9PPrjA6s0blyFv5qarckjNkaHRA5B+3b53ybuGGNTXEj1/DStQJ4NWjFL6QTRQpL9zt7nDyKxZdJOlcnq+Q==",
       "type": "package",
@@ -4570,6 +4668,19 @@
         "lib/net7.0/Microsoft.AspNetCore.OpenApi.xml",
         "microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.WebUtilities/2.3.0": {
+      "sha512": "trbXdWzoAEUVd0PE2yTopkz4kjZaAIA7xUWekd5uBw+7xE8Do/YOVTeb9d9koPTlbtZT539aESJjSLSqD8eYrQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.webutilities/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.xml",
+        "microsoft.aspnetcore.webutilities.2.3.0.nupkg.sha512",
+        "microsoft.aspnetcore.webutilities.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -5586,10 +5697,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
-      "sha512": "3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+      "sha512": "+6f2qv2a3dLwd5w6JanPIPs47CxRbnk+ZocMJUhv9NxP88VlOcJYZs9jY+MYSjxvady08bUZn6qgiNh7DadGgg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.2",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5599,21 +5710,19 @@
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
         "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
+        "buildTransitive/net8.0/_._",
         "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
         "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -6087,10 +6196,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.ObjectPool/8.0.10": {
-      "sha512": "u7gAG7JgxF8VSJUGPSudAcPxOt+ymJKQCSxNRxiuKV+klCQbHljQR75SilpedCTfhPWDhtUwIJpnDVtspr9nMg==",
+    "Microsoft.Extensions.ObjectPool/8.0.11": {
+      "sha512": "6ApKcHNJigXBfZa6XlDQ8feJpq7SG1ogZXg6M4FiNzgd6irs3LUAzo0Pfn4F2ZI9liGnH1XIBR/OtSbZmJAV5w==",
       "type": "package",
-      "path": "microsoft.extensions.objectpool/8.0.10",
+      "path": "microsoft.extensions.objectpool/8.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6102,7 +6211,7 @@
         "lib/net8.0/Microsoft.Extensions.ObjectPool.xml",
         "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll",
         "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.xml",
-        "microsoft.extensions.objectpool.8.0.10.nupkg.sha512",
+        "microsoft.extensions.objectpool.8.0.11.nupkg.sha512",
         "microsoft.extensions.objectpool.nuspec"
       ]
     },
@@ -6492,6 +6601,19 @@
         "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.xml",
         "microsoft.io.recyclablememorystream.3.0.0.nupkg.sha512",
         "microsoft.io.recyclablememorystream.nuspec"
+      ]
+    },
+    "Microsoft.Net.Http.Headers/2.3.0": {
+      "sha512": "/M0wVg6tJUOHutWD3BMOUVZAioJVXe0tCpFiovzv0T9T12TBf4MnaHP0efO8TCr1a6O9RZgQeZ9Gdark8L9XdA==",
+      "type": "package",
+      "path": "microsoft.net.http.headers/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll",
+        "lib/netstandard2.0/Microsoft.Net.Http.Headers.xml",
+        "microsoft.net.http.headers.2.3.0.nupkg.sha512",
+        "microsoft.net.http.headers.nuspec"
       ]
     },
     "Microsoft.OpenApi/1.6.23": {
@@ -7362,6 +7484,26 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "System.Buffers/4.6.0": {
+      "sha512": "lN6tZi7Q46zFzAbRYXTIvfXcyvQQgxnY7Xm6C6xQ9784dEL1amjM6S6Iw4ZpsvesAKnRVsM4scrDQaDqSClkjA==",
+      "type": "package",
+      "path": "system.buffers/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "buildTransitive/net461/System.Buffers.targets",
+        "buildTransitive/net462/_._",
+        "lib/net462/System.Buffers.dll",
+        "lib/net462/System.Buffers.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.6.0.nupkg.sha512",
+        "system.buffers.nuspec"
+      ]
+    },
     "System.CodeDom/4.4.0": {
       "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
       "type": "package",
@@ -8152,6 +8294,11 @@
       "path": "../ELearningIskoop.BuildingBlocks.Domain/ELearningIskoop.BuildingBlocks.Domain.csproj",
       "msbuildProject": "../ELearningIskoop.BuildingBlocks.Domain/ELearningIskoop.BuildingBlocks.Domain.csproj"
     },
+    "ELearningIskoop.BuildingBlocks.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../ELearningIskoop.BuildingBlocks.Infrastructure/ELearningIskoop.BuildingBlocks.Infrastructure.csproj",
+      "msbuildProject": "../ELearningIskoop.BuildingBlocks.Infrastructure/ELearningIskoop.BuildingBlocks.Infrastructure.csproj"
+    },
     "ELearningIskoop.Courses.Application/1.0.0": {
       "type": "project",
       "path": "../ELearningIskoop.Courses.Application/ELearningIskoop.Courses.Application.csproj",
@@ -8226,11 +8373,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.API\\ELearningIskoop.API.csproj",
+      "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.API\\ELearningIskoop.API.csproj",
       "projectName": "ELearningIskoop.API",
-      "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.API\\ELearningIskoop.API.csproj",
+      "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.API\\ELearningIskoop.API.csproj",
       "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.API\\obj\\",
+      "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
@@ -8259,23 +8406,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj": {
-              "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj"
+            "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj": {
+              "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj"
             },
-            "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj"
+            "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj"
             },
-            "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
-              "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj"
+            "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
+              "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj"
             },
-            "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj": {
-              "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj"
+            "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj": {
+              "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj"
             },
-            "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj"
+            "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj"
             },
-            "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj": {
-              "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj"
+            "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj": {
+              "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj"
             }
           }
         }
@@ -8379,6 +8526,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL 9.3.0 depends on Microsoft.Extensions.DependencyInjection.Abstractions (>= 8.0.3) but Microsoft.Extensions.DependencyInjection.Abstractions 8.0.3 was not found. Microsoft.Extensions.DependencyInjection.Abstractions 9.0.0 was resolved instead.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

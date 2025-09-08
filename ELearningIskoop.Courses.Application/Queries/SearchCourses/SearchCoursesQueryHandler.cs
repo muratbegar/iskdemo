@@ -41,7 +41,7 @@ namespace ELearningIskoop.Courses.Application.Queries.SearchCourses
                 ObjectId = course.ObjectId,
                 Title = course.Title,
                 Description = TruncateDescription(course.Description, 150),
-                InstructorName = course.InstructorName.FullName,
+                InstructorName = course.InstructorName.FirstName + course.InstructorName.LastName,
                 FormattedPrice = course.Price.GetFormattedAmount(),
                 IsFree = course.IsFree,
                 Level = course.Level.GetDescription(),
@@ -155,7 +155,7 @@ namespace ELearningIskoop.Courses.Application.Queries.SearchCourses
                 score += 3.0;
 
             // Instructor name match
-            if (course.InstructorName.FullName.ToLowerInvariant().Contains(normalizedSearchTerm))
+            if (course.InstructorName.FirstName.ToLowerInvariant().Contains(normalizedSearchTerm))
                 score += 2.0;
 
             // Category match

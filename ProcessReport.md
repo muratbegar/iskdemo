@@ -285,3 +285,248 @@ Integration Tests
 Diğer Modüller (Users, Enrollments, Learning)
 
 Mimari foundation sağlam! Application layer'a geçmeye hazırız! 
+
+
+
+
+
+
+
+
+
+
+🚀 User Modülü İçin Gelişmiş Özellikler ve Konseptler
+1. 🔐 Gelişmiş Kimlik Doğrulama
+Multi-Factor Authentication (MFA)
+
+TOTP (Time-based One-Time Password): Google Authenticator, Authy entegrasyonu
+SMS OTP: Telefon numarasına kod gönderimi
+Email OTP: Email tabanlı doğrulama
+Biometric Authentication: Parmak izi, yüz tanıma (WebAuthn API)
+Hardware Keys: YubiKey, FIDO2 desteği
+Backup Codes: MFA cihazı kaybolduğunda kullanılacak tek kullanımlık kodlar
+
+Passwordless Authentication
+
+Magic Links (Email ile giriş)
+QR Code Login (WhatsApp Web tarzı)
+Social Login (OAuth 2.0): Google, Facebook, LinkedIn, GitHub
+Single Sign-On (SSO): SAML 2.0, OpenID Connect
+Passkeys (WebAuthn): Cihaz tabanlı giriş
+
+2. 👤 Kullanıcı Profil Yönetimi
+Gelişmiş Profil Özellikleri
+
+Profil Tamamlama Wizard: Gamification ile adım adım profil doldurma
+Skill Assessment: Yetenek değerlendirme ve sertifikasyon
+Portfolio Showcase: Tamamlanan kurslar, projeler, başarılar
+Social Profiles: LinkedIn, GitHub bağlantıları
+Timezone Management: Otomatik timezone algılama ve dönüşüm
+Language Preferences: Çoklu dil desteği, tercih edilen dil
+Accessibility Settings: Görme engelli modu, font boyutu, kontrast
+
+Privacy Controls
+
+Profil Görünürlük Seviyeleri: Public, Private, Friends-only
+Data Export: GDPR uyumlu veri dışa aktarma
+Data Deletion: Right to be forgotten
+Activity Privacy: Öğrenme aktivitelerini gizleme
+Contact Preferences: İletişim tercihleri yönetimi
+
+3. 🎯 Davranışsal Analitik ve Kişiselleştirme
+User Behavior Tracking
+
+Learning Patterns: Öğrenme alışkanlıkları analizi
+Peak Activity Hours: En aktif saatler
+Device Analytics: Hangi cihazdan bağlanıyor
+Session Duration: Ortalama oturum süreleri
+Click Heatmaps: Kullanıcı tıklama haritaları
+Navigation Paths: Site içi gezinti yolları
+
+Personalization Engine
+
+Content Recommendations: ML tabanlı kurs önerileri
+Learning Path Customization: Kişiselleştirilmiş öğrenme rotası
+Notification Preferences: Bildirim zamanlaması optimizasyonu
+UI/UX Personalization: Tema, layout tercihleri
+Email Personalization: Kişiselleştirilmiş email içerikleri
+
+4. 🏆 Gamification ve Engagement
+Achievement System
+
+Badges: Çeşitli başarı rozetleri
+Levels/Ranks: Kullanıcı seviyeleri (Beginner → Expert)
+Points System: XP puanları
+Leaderboards: Haftalık/Aylık sıralamalar
+Streaks: Ardışık gün sayısı takibi
+Challenges: Haftalık/Aylık görevler
+Certificates: Dijital sertifikalar (blockchain tabanlı olabilir)
+
+Social Features
+
+Following System: Kullanıcıları takip etme
+Activity Feed: Takip edilenlerin aktiviteleri
+Study Groups: Çalışma grupları oluşturma
+Peer Reviews: Akran değerlendirmesi
+Mentorship Program: Mentor-mentee eşleştirme
+Discussion Forums: Kullanıcı forumları
+Direct Messaging: Özel mesajlaşma
+
+5. 🔍 Gelişmiş Arama ve Filtreleme
+Smart Search
+
+Elasticsearch Integration: Full-text search
+Fuzzy Search: Yazım hatalarına tolerans
+Search Suggestions: Otomatik tamamlama
+Search History: Arama geçmişi
+Saved Searches: Aramaları kaydetme
+Advanced Filters: Çoklu kriter filtreleme
+
+6. 📊 Raporlama ve Analytics
+User Analytics Dashboard
+
+Learning Progress: Öğrenme ilerleme grafikleri
+Time Spent Analysis: Zaman harcama analizi
+Course Completion Rates: Tamamlanma oranları
+Performance Metrics: Performans metrikleri
+Goal Tracking: Hedef takibi
+Comparative Analysis: Peer comparison
+
+Admin Analytics
+
+User Growth Metrics: Kullanıcı artış grafikleri
+Retention Analysis: Kullanıcı tutma oranları
+Churn Prediction: ML ile churn tahmini
+Cohort Analysis: Kohort bazlı analizler
+A/B Testing Framework: Feature testing
+Revenue Analytics: Gelir analizleri (premium users)
+
+7. 🔔 Bildirim Sistemi
+Multi-Channel Notifications
+
+In-App Notifications: Uygulama içi bildirimler
+Push Notifications: Browser/Mobile push
+Email Digests: Özet emailler
+SMS Notifications: SMS bildirimleri
+Webhook Integration: Slack, Discord, Teams
+
+Smart Notification Management
+
+Notification Preferences: Detaylı bildirim tercihleri
+Do Not Disturb Mode: Rahatsız etme modu
+Notification Grouping: Bildirimleri gruplama
+Priority Levels: Öncelik seviyeleri
+Batch Processing: Toplu bildirim gönderimi
+
+8. 🛡️ Güvenlik ve Compliance
+Advanced Security
+
+Anomaly Detection: Anormal aktivite tespiti
+IP Whitelisting/Blacklisting: IP bazlı erişim kontrolü
+Device Fingerprinting: Cihaz parmak izi
+Session Management: Çoklu oturum yönetimi
+Security Audit Logs: Güvenlik denetim kayıtları
+Penetration Testing Ready: Güvenlik testlerine hazır
+
+Compliance Features
+
+GDPR Compliance: Avrupa veri koruma
+CCPA Compliance: California veri koruma
+KVKK Compliance: Türkiye veri koruma
+Age Verification: Yaş doğrulama (COPPA)
+Consent Management: İzin yönetimi
+Data Residency: Veri lokasyonu kontrolü
+
+9. 🔄 Integration ve API
+Third-Party Integrations
+
+Payment Gateways: Stripe, PayPal, Iyzico
+Cloud Storage: AWS S3, Azure Blob, Google Cloud
+Video Platforms: Zoom, Teams, Google Meet
+CRM Integration: Salesforce, HubSpot
+Analytics Tools: Google Analytics, Mixpanel
+Support Systems: Zendesk, Intercom
+
+API Features
+
+GraphQL API: Flexible data fetching
+Webhook System: Event-driven integrations
+API Rate Limiting: Per-user/Per-app limits
+API Key Management: Multiple API keys
+OAuth Provider: Diğer uygulamalar için OAuth provider olma
+
+10. 🚦 Performans ve Ölçeklenebilirlik
+Performance Optimization
+
+Redis Caching: Distributed caching
+CDN Integration: Static content delivery
+Database Sharding: Veritabanı parçalama
+Read Replicas: Okuma replikaları
+Lazy Loading: Tembel yükleme
+Image Optimization: Resim optimizasyonu
+
+Scalability Features
+
+Microservices Ready: Mikroservis mimarisine geçiş
+Event Sourcing: Event-based architecture
+CQRS Implementation: Command-Query separation
+Message Queue: RabbitMQ, Kafka entegrasyonu
+Load Balancing: Yük dengeleme stratejileri
+
+11. 🤖 AI ve Machine Learning
+AI-Powered Features
+
+Chatbot Assistant: AI destekli yardımcı
+Content Recommendations: İçerik önerisi
+Fraud Detection: Dolandırıcılık tespiti
+Sentiment Analysis: Duygu analizi (reviews)
+Predictive Analytics: Tahminsel analitik
+Natural Language Processing: Doğal dil işleme
+
+12. 📱 Mobile ve Cross-Platform
+Mobile Features
+
+Progressive Web App (PWA): Offline çalışma
+Native Mobile Apps: iOS/Android uygulamaları
+Biometric Login: Touch ID, Face ID
+Mobile-Specific UI: Mobil özel arayüz
+Offline Sync: Offline-online senkronizasyon
+Push Notifications: Mobil push bildirimleri
+
+
+
+
+User Search yapıalca
+Doğru yaklaşım:
+
+Aggregate root, kendi state’ini yönetir ve domain invariants’ı korur.
+
+Kullanıcıyla ilgili bir değişiklik yapmak istediğinde repository’den önce aggregate’i alırsın, sonra aggregate metodunu çağırırsın.
+
+Örnek:
+// 1. Kullanıcıyı repository’den al
+var user = await _userRepository.GetByIdAsync(userId);
+if (user == null) throw new NotFoundException("User not found");
+
+// 2. Aggregate metodunu çağırarak değişikliği yap
+user.UpdateProfile(
+    name: new PersonName("Murat", "Begar"),
+    bio: "Yeni bio",
+    profilePictureUrl: "/uploads/profile-pictures/abc.jpg"
+);
+
+// 3. Değişikliği kaydet
+await _userRepository.SaveChangesAsync();
+
+
+
+POST /api/v1/users/profile-picture - Profil resmi yükleme yapıalcak
+
+
+EVENT HANDLER'LARIN KULLANIM ALANLARI1. Side Effects (Yan Etkiler)
+csharp// Ana işlem: Role oluştur
+// Yan etkiler: 
+// - Audit log
+// - Cache temizle  
+// - Email gönder
+// - Statistics güncelle

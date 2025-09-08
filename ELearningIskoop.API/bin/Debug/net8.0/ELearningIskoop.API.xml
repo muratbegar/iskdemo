@@ -4,5 +4,33 @@
         <name>ELearningIskoop.API</name>
     </assembly>
     <members>
+        <member name="M:ELearningIskoop.API.Controllers.RoleController.GetRoleById(System.Int32)">
+            <summary>
+            Get a role by ID
+            </summary>
+            <param name="id">Role ID</param>
+            <returns>Role details</returns>
+        </member>
+        <member name="M:ELearningIskoop.API.Controllers.RoleController.GetAllRoles(System.Int32,System.Int32,System.String,System.Boolean)">
+            <summary>
+            Get all roles with pagination
+            </summary>
+            <param name="page">Page number (default: 1)</param>
+            <param name="pageSize">Page size (default: 10, max: 100)</param>
+            <param name="sortBy">Sort field: Name or CreatedAt (default: Name)</param>
+            <param name="sortDescending">Sort direction (default: false)</param>
+            <returns>Paginated list of roles</returns>
+        </member>
+        <member name="M:ELearningIskoop.API.Controllers.RoleController.SearchRoles(System.String,System.Int32,System.Int32,System.String,System.Boolean)">
+            <summary>
+            Search roles by name or description
+            </summary>
+            <param name="searchTerm">Search term</param>
+            <param name="page">Page number (default: 1)</param>
+            <param name="pageSize">Page size (default: 10, max: 100)</param>
+            <param name="sortBy">Sort field: Name or CreatedAt (default: Name)</param>
+            <param name="sortDescending">Sort direction (default: false)</param>
+            <returns>Paginated search results</returns>
+        </member>
     </members>
 </doc>

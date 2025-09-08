@@ -81,13 +81,14 @@ namespace ELearningIskoop.Courses.Infrastructure.Seeds
 
         private static List<Course> CreateSampleCourses(List<Category> categories)
         {
+            Email email = new Email("");
             return new List<Course>
             {
                 Course.Create(
                     "C# ile Web Development",
                     "Sıfırdan ileri seviye C# ve ASP.NET Core ile web geliştirme",
-                    PersonName.Create("Ahmet", "Yılmaz"),
-                    Email.Create("ahmet@example.com"),
+                    new PersonName("Ahmet", "Yılmaz"),
+                    new Email("ahmet@example.com"),
                     Money.CreateTRY(299.99m),
                     CourseLevel.Intermediate,
                     1 //admin
@@ -96,8 +97,8 @@ namespace ELearningIskoop.Courses.Infrastructure.Seeds
                 Course.Create(
                     "JavaScript Temelleri",
                     "Modern JavaScript ile frontend geliştirme temelleri",
-                    PersonName.Create("Ayşe", "Kara"),
-                    Email.Create("ayse@example.com"),
+                    new PersonName("Ayşe", "Kara"),
+                    new Email("ayse@example.com"),
                     Money.CreateTRY(199.99m),
                     CourseLevel.Beginner,
                     1),
@@ -105,8 +106,8 @@ namespace ELearningIskoop.Courses.Infrastructure.Seeds
                 Course.Create(
                     "React ile Modern Web Uygulamaları",
                     "React, Redux ve modern frontend teknolojileri",
-                    PersonName.Create("Mehmet", "Demir"),
-                    Email.Create("mehmet@example.com"),
+                    new PersonName("Mehmet", "Demir"),
+                    new Email("mehmet@example.com"),
                     Money.CreateTRY(399.99m),
                     CourseLevel.Advanced,
                     1),
@@ -114,8 +115,8 @@ namespace ELearningIskoop.Courses.Infrastructure.Seeds
                 Course.Create(
                     "Python ile Veri Analizi",
                     "Pandas, NumPy ve Matplotlib ile veri analizi",
-                    PersonName.Create("Fatma", "Özkan"),
-                    Email.Create("fatma@example.com"),
+                    new PersonName("Fatma", "Özkan"),
+                    new Email("fatma@example.com"),
                     Money.CreateTRY(249.99m),
                     CourseLevel.Intermediate,
                     1),
@@ -123,8 +124,8 @@ namespace ELearningIskoop.Courses.Infrastructure.Seeds
                 Course.Create(
                     "Ücretsiz HTML/CSS Kursu",
                     "Web geliştirmeye giriş - HTML ve CSS temelleri",
-                    PersonName.Create("Can", "Arslan"),
-                    Email.Create("can@example.com"),
+                    new PersonName("Can", "Arslan"),
+                    new Email("murat@example.com"),
                     Money.CreateTRY(0m),
                     CourseLevel.Beginner,
                     1)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj": {}
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj": {}
   },
   "projects": {
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj": {
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
         "projectName": "ELeraningIskoop.ServiceDefaults",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\obj\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",

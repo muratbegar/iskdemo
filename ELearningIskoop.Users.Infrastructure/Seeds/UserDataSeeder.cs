@@ -97,14 +97,17 @@ namespace ELearningIskoop.Users.Infrastructure.Seeds
             await unitOfWork.SaveChangesAsync();
         }
 
-        private static async Task SeedAdminUserAsync(IUserRepository userRepository, IRoleRepository roleRepository,
+        
+
+        private static async Task SeedAdminUserAsync(IUserRepository userRepository, IRoleRepository roleRepository, 
             IUnitOfWork unitOfWork)
         {
-            const string adminEmail = "admin@iskoop.org";
+            var adminEmail =new Email("admin@iskoop.org");
+            
             var existingAdmin = await userRepository.GetByEmailAsync(adminEmail);
             if (existingAdmin == null)
             {
-                var admin = User.Create(Email.Create(adminEmail), PersonName.Create("System", "Admin"), "123",
+                var admin = User.Create(adminEmail, new PersonName("System", "Admin"), "Test123!",
                     enUserRole.Admin.GetHashCode());
 
                 admin.VerifyEmail(enUserRole.Admin.GetHashCode());
@@ -114,6 +117,8 @@ namespace ELearningIskoop.Users.Infrastructure.Seeds
                 {
                     admin.AssignRole(adminRole, enUserRole.Admin.GetHashCode());
                 }
+
+                
 
                 await userRepository.AddAsync(admin);
                 await unitOfWork.SaveChangesAsync();
@@ -133,12 +138,13 @@ namespace ELearningIskoop.Users.Infrastructure.Seeds
 
             foreach (var (email, firstName, lastName, password, roleName) in testUsers)
             {
-                var existingUser = await userRepository.GetByEmailAsync(email);
+                var ConvertEmail = new Email(email);
+                var existingUser = await userRepository.GetByEmailAsync(ConvertEmail);
                 if (existingUser == null)
                 {
                     var user = User.Create(
-                        Email.Create(email),
-                        PersonName.Create(firstName, lastName),
+                       ConvertEmail,
+                        new PersonName(firstName, lastName),
                         password,
                         enUserRole.Admin.GetHashCode()
                         );
@@ -152,7 +158,11 @@ namespace ELearningIskoop.Users.Infrastructure.Seeds
                         user.AssignRole(role, enUserRole.Admin.GetHashCode());
                     }
 
+
+
                     await userRepository.AddAsync(user);
+
+                    //await refreshTokenRepository.AddAsync(RefreshToken.Create(user.ObjectId,"","",7);
                 }
             }
 

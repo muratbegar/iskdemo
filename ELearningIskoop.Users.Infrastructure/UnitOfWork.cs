@@ -20,12 +20,7 @@ namespace ELearningIskoop.Users.Infrastructure
         }
 
 
-        public void Dispose()
-        {
-            _currentTransaction?.Dispose();
-            _context.Dispose();
-        }
-
+      
         public async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             return await _context.SaveChangesAsync(cancellationToken);
@@ -82,9 +77,25 @@ namespace ELearningIskoop.Users.Infrastructure
             }
         }
 
-        public ValueTask DisposeAsync()
+        // Sync Dispose
+        public void Dispose()
         {
-            throw new NotImplementedException();
+            _currentTransaction?.Dispose();
+            _context.Dispose();
+            GC.SuppressFinalize(this);
+        }
+
+        // Async Dispose - DÜZELTİLDİ
+        public async ValueTask DisposeAsync()
+        {
+            if (_currentTransaction != null)
+            {
+                await _currentTransaction.DisposeAsync();
+                _currentTransaction = null;
+            }
+
+            await _context.DisposeAsync();
+            GC.SuppressFinalize(this);
         }
     }
 

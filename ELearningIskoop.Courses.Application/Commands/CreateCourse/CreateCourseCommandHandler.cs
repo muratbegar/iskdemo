@@ -37,16 +37,15 @@ namespace ELearningIskoop.Courses.Application.Commands.CreateCourse
             await ValidateBusinessRulesAsync(request, cancellationToken);
 
             //Value Objectleri oluştur
-            var instructorName = PersonName.Create(request.InstructorFirstName, request.InstructorLastName);
-            var instructorEmail = Email.Create(request.InstructorEmail);
+            var instructorName = new PersonName(request.InstructorFirstName, request.InstructorLastName);
             var price = Money.Create(request.Price, request.Currency);
-
+            Email email = new Email(request.InstructorEmail);
             //Kurs oluştur
             var course = Course.Create(
                 title: request.Title,
                 description:request.Description,
                 instructorName: instructorName,
-                instructorEmail: instructorEmail,
+                instructorEmail: email,
                 price:price,
                 level:request.Level,
                 createdBy:request.RequestedBy.Value);

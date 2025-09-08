@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iKNPv9GWPeM=",
+  "dgSpecHash": "qELp94OWfq8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
+  "projectFilePath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muratbegar\\.nuget\\packages\\aspire.stackexchange.redis\\8.2.2\\aspire.stackexchange.redis.8.2.2.nupkg.sha512",
     "C:\\Users\\muratbegar\\.nuget\\packages\\aspire.stackexchange.redis.distributedcaching\\8.2.2\\aspire.stackexchange.redis.distributedcaching.8.2.2.nupkg.sha512",
@@ -99,9 +99,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'OpenTelemetry.Instrumentation.AspNetCore' 1.7.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh2m-22xx-q94f",
-      "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
+      "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
+      "filePath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
       "libraryId": "OpenTelemetry.Instrumentation.AspNetCore",
       "targetGraphs": [
         "net8.0"
@@ -111,9 +111,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'OpenTelemetry.Instrumentation.Http' 1.7.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh2m-22xx-q94f",
-      "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
+      "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
+      "filePath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
       "libraryId": "OpenTelemetry.Instrumentation.Http",
       "targetGraphs": [
         "net8.0"

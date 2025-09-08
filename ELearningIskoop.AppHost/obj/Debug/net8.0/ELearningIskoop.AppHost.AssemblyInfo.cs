@@ -18,17 +18,15 @@ using System.Reflection;
     "ols\\ext\\")]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\muratbegar\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.3.1\\to" +
     "ols\\ext\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoo" +
-    "p.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "ELearningIskoop.AppHost.csproj")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\muratbegar\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.3.1\\tools\\Aspi" +
     "re.Dashboard.exe")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoo" +
-    "p.AppHost\\obj\\")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.AppHost\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ELearningIskoop.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cf30eb91a311dc957ea8cc7207b7907c99745e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a0bc81e5d3caa06fbed1322d895877448fb4a53")]
 [assembly: System.Reflection.AssemblyProductAttribute("ELearningIskoop.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ELearningIskoop.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

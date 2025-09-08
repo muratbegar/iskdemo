@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ELearningIskoop.Enrollments.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cf30eb91a311dc957ea8cc7207b7907c99745e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a0bc81e5d3caa06fbed1322d895877448fb4a53")]
 [assembly: System.Reflection.AssemblyProductAttribute("ELearningIskoop.Enrollments.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ELearningIskoop.Enrollments.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -25,7 +25,10 @@ namespace ELearningIskoop.Users.Infrastructure.Persistence
         public DbSet<UserLogin> UsersLogin { get; set; } = null;
 
         public DbSet<Permission> RolePermissions { get; set; } = null;
+        public DbSet<RefreshToken> RefreshTokens { get; set; } = null;
+        public DbSet<UserEmailVerification> UserEmailVerifications { get; set; } = null;
 
+        public DbSet<PasswordResetToken> PasswordResetTokens { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -39,6 +42,9 @@ namespace ELearningIskoop.Users.Infrastructure.Persistence
             modelBuilder.ApplyConfiguration(new UserRoleConfiguration());
             modelBuilder.ApplyConfiguration(new UserLoginConfiguration());
             modelBuilder.ApplyConfiguration(new RolePermissionConfiguration());
+            modelBuilder.ApplyConfiguration(new RefreshTokenConfiguration());
+            modelBuilder.ApplyConfiguration(new UserVerificationConfiguration());
+            modelBuilder.ApplyConfiguration(new PasswordResetConfiguration());
 
             modelBuilder.Entity<User>().HasQueryFilter(x => !x.IsDeleted);
             modelBuilder.Entity<Role>().HasQueryFilter(x => !x.IsDeleted);

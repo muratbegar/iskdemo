@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.API\\ELearningIskoop.API.csproj": {}
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.API\\ELearningIskoop.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.API\\ELearningIskoop.API.csproj": {
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.API\\ELearningIskoop.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.API\\ELearningIskoop.API.csproj",
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.API\\ELearningIskoop.API.csproj",
         "projectName": "ELearningIskoop.API",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.API\\ELearningIskoop.API.csproj",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.API\\ELearningIskoop.API.csproj",
         "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.API\\obj\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
@@ -40,23 +40,23 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj"
               },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj"
               },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj"
               },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj"
               },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj"
               },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj"
               }
             }
           }
@@ -159,14 +159,14 @@
         }
       }
     },
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj": {
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj",
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj",
         "projectName": "ELearningIskoop.BuildingBlocks.Application",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj",
         "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Application\\obj\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
@@ -227,6 +227,10 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.Extensions.Caching.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -284,14 +288,14 @@
         }
       }
     },
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj": {
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj",
         "projectName": "ELearningIskoop.BuildingBlocks.Domain",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj",
         "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Domain\\obj\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
@@ -363,14 +367,14 @@
         }
       }
     },
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj": {
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj",
-        "projectName": "ELearningIskoop.Courses.Application",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj",
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj",
+        "projectName": "ELearningIskoop.BuildingBlocks.Infrastructure",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Application\\obj\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
@@ -399,177 +403,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj"
-              },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj"
-              },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj",
-        "projectName": "ELearningIskoop.Courses.Domain",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj",
-        "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\muratbegar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\DevExpress 20.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj"
-              },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj",
-        "projectName": "ELearningIskoop.Courses.Infrastructure",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Infrastructure\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\muratbegar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\DevExpress 20.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj"
-              },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj"
-              },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj"
               }
             }
           }
@@ -592,7 +427,279 @@
           "dependencies": {
             "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.2.2, )"
+              "version": "[9.3.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj",
+        "projectName": "ELearningIskoop.Courses.Application",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Application\\ELearningIskoop.Courses.Application.csproj",
+        "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\muratbegar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj"
+              },
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj"
+              },
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj",
+        "projectName": "ELearningIskoop.Courses.Domain",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj",
+        "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\muratbegar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj"
+              },
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj",
+        "projectName": "ELearningIskoop.Courses.Infrastructure",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Infrastructure\\ELearningIskoop.Courses.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\muratbegar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj"
+              },
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Courses.Domain\\ELearningIskoop.Courses.Domain.csproj"
+              },
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.3.0, )"
             },
             "MediatR": {
               "target": "Package",
@@ -624,11 +731,11 @@
             },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[8.0.11, )"
             }
           },
           "imports": [
@@ -651,14 +758,14 @@
         }
       }
     },
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj",
         "projectName": "ELearningIskoop.Shared.Domain",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj",
         "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\obj\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
@@ -687,8 +794,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj"
               }
             }
           }
@@ -710,6 +817,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
               "target": "Package",
               "version": "[8.0.18, )"
             },
@@ -738,14 +849,14 @@
         }
       }
     },
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj": {
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj",
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj",
         "projectName": "ELearningIskoop.Users.Application",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj",
         "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Application\\obj\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
@@ -774,11 +885,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Application\\ELearningIskoop.BuildingBlocks.Application.csproj"
               },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj"
+              },
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj"
               }
             }
           }
@@ -805,11 +919,11 @@
             },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.Extensions.Options": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.2, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -836,14 +950,14 @@
         }
       }
     },
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj": {
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj",
         "projectName": "ELearningIskoop.Users.Domain",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj",
         "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Domain\\obj\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
@@ -872,11 +986,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj"
               },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Shared.Domain\\ELearningIskoop.Shared.Domain.csproj"
               }
             }
           }
@@ -916,14 +1030,14 @@
         }
       }
     },
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj": {
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj",
         "projectName": "ELearningIskoop.Users.Infrastructure",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
@@ -952,11 +1066,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj"
               },
-              "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj": {
-                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj"
+              "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj": {
+                "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj"
               }
             }
           }
@@ -979,7 +1093,7 @@
           "dependencies": {
             "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.2.2, )"
+              "version": "[9.3.0, )"
             },
             "MediatR": {
               "target": "Package",
@@ -1007,15 +1121,15 @@
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[8.0.11, )"
             }
           },
           "imports": [
@@ -1038,14 +1152,14 @@
         }
       }
     },
-    "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj": {
+    "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
         "projectName": "ELeraningIskoop.ServiceDefaults",
-        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
+        "projectPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\ELeraningIskoop.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\muratbegar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELeraningIskoop.ServiceDefaults\\obj\\",
+        "outputPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELeraningIskoop.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",

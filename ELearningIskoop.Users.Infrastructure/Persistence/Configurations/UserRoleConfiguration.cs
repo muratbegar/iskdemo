@@ -16,6 +16,17 @@ namespace ELearningIskoop.Users.Infrastructure.Persistence.Configurations
             builder.ToTable("UserRoles");
             builder.HasKey(x => x.ObjectId);
             builder.Property(x => x.ObjectId).ValueGeneratedOnAdd();
+
+
+            builder.HasOne(ur => ur.User)
+                .WithMany(u => u.UserRoles)
+                .HasForeignKey(ur => ur.UserId);
+
+            builder.HasOne(ur => ur.Role)
+                .WithMany(r => r.UserRoles)
+                .HasForeignKey(ur => ur.RoleId);
+
+
             builder.HasIndex(ur => new { ur.UserId, ur.RoleId })
                 .IsUnique()
                 .HasDatabaseName("IX_UserRoles_UserId_RoleId");

@@ -1,14 +1,15 @@
-﻿using System;
+﻿using ELearningIskoop.BuildingBlocks.Domain;
+using ELearningIskoop.Users.Domain.Entities;
+using ELearningIskoop.Users.Domain.Repos;
+using ELearningIskoop.Users.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using ELearningIskoop.BuildingBlocks.Domain;
-using ELearningIskoop.Users.Domain.Entities;
-using ELearningIskoop.Users.Domain.Repos;
-using ELearningIskoop.Users.Infrastructure.Persistence;
-using Microsoft.EntityFrameworkCore;
+using System.Xml.Linq;
 
 namespace ELearningIskoop.Users.Infrastructure.Repositories
 {
@@ -23,9 +24,15 @@ namespace ELearningIskoop.Users.Infrastructure.Repositories
 
         public async Task<Role?> GetByNameAsync(string roleName, CancellationToken cancellationToken = default)
         {
+            if (string.IsNullOrWhiteSpace(roleName))
+                return null;
+
             return await _context.Roles
-                .Include(r => r.Permissions)
-                .FirstOrDefaultAsync(r => r.NormalizedName == roleName.ToUpperInvariant(), cancellationToken);
+                .FirstOrDefaultAsync(r => r.Name.ToLower() == roleName.ToLower() && !r.IsDeleted);
+
+            //return await _context.Roles
+            //    .Include(r => r.Permissions)
+            //    .FirstOrDefaultAsync(r => r.NormalizedName == roleName.ToUpperInvariant(), cancellationToken);
         }
 
         public async Task<IEnumerable<Role>> GetActiveRolesAsync(CancellationToken cancellationToken = default)
@@ -46,16 +53,33 @@ namespace ELearningIskoop.Users.Infrastructure.Repositories
 
         public async Task<Role?> GetByIdAsync(int id, CancellationToken cancellationToken = default)
         {
+
             return await _context.Roles
-                .Include(r => r.Permissions)
                 .FirstOrDefaultAsync(r => r.ObjectId == id, cancellationToken);
+            //return await _context.Roles
+            //    .Include(r => r.Permissions)
+            //    .FirstOrDefaultAsync(r => r.ObjectId == id, cancellationToken);
         }
 
         public async Task<IEnumerable<Role>> GetAllAsync(CancellationToken cancellationToken = default)
         {
             return await _context.Roles
+                .Where(r => !r.IsDeleted)
                 .OrderBy(r => r.Name)
-                .ToListAsync(cancellationToken);
+                .ToListAsync();
+        }
+
+        public async Task<IEnumerable<Role>> SearchAsync(string searchTerm)
+        {
+            if (!string.IsNullOrWhiteSpace(searchTerm))
+                return await GetAllAsync();
+
+            var lowerSearchTerm = searchTerm.ToLower();
+
+            return await _context.Roles
+                .Where(r => !r.IsDeleted && r.Name.ToLower().Contains(lowerSearchTerm) ||
+                            r.Description.ToLower().Contains(lowerSearchTerm)).OrderBy(r => r.Name).ToListAsync();
+
         }
 
         public async Task<IEnumerable<Role>> GetPagedAsync(int pageNumber, int pageSize, CancellationToken cancellationToken = default)
@@ -103,6 +127,7 @@ namespace ELearningIskoop.Users.Infrastructure.Repositories
         public async Task<Role> AddAsync(Role entity, CancellationToken cancellationToken = default)
         {
             _context.Roles.Add(entity);
+            _context.SaveChangesAsync();
             return entity;
         }
 
@@ -152,6 +177,19 @@ namespace ELearningIskoop.Users.Infrastructure.Repositories
                 .IgnoreQueryFilters()
                 .Where(r => r.IsDeleted)
                 .ToListAsync(cancellationToken);
+        }
+
+        public async Task<bool> NameExistsAsync(string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+                return false;
+
+            var query = _context.Roles
+                .Where(r => r.Name.ToLower() == name.ToLower() && !r.IsDeleted);
+
+            
+
+            return await query.AnyAsync();
         }
     }
 

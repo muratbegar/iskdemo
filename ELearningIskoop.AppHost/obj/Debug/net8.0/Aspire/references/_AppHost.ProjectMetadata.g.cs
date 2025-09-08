@@ -8,5 +8,5 @@ namespace Projects;
 public class ELearningIskoop_AppHost
 {
     private ELearningIskoop_AppHost() { }
-    public static string ProjectPath => """C:\Users\muratbegar\source\repos\MBIskoopElearning\elaerningiskoop\ELearningIskoop.AppHost""";
+    public static string ProjectPath => """C:\Users\muratbegar\source\repos\mb\ELearningIskoop.AppHost""";
 }

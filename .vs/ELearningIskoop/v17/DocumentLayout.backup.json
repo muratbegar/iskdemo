@@ -1,10 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\",
+  "WorkspaceRootPath": "C:\\Users\\muratbegar\\source\\repos\\mb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52138894-E8C7-1B22-968F-C3BF4FE13A0C}|ELearningIskoop.API\\ELearningIskoop.API.csproj|c:\\users\\muratbegar\\source\\repos\\mbiskoopelearning\\elaerningiskoop\\elearningiskoop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52138894-E8C7-1B22-968F-C3BF4FE13A0C}|ELearningIskoop.API\\ELearningIskoop.API.csproj|solutionrelative:elearningiskoop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A52766E-1767-42B3-B314-CD4AF1B8DD44}|ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.application\\services\\permissiondomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A52766E-1767-42B3-B314-CD4AF1B8DD44}|ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj|solutionrelative:elearningiskoop.users.application\\services\\permissiondomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1308FC72-DF2F-4E4B-BEE7-0370A370DAA3}|ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.domain\\services\\ipermissiondomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1308FC72-DF2F-4E4B-BEE7-0370A370DAA3}|ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj|solutionrelative:elearningiskoop.users.domain\\services\\ipermissiondomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\Migrations\\20250827135949_Mg_User_008.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ELearningIskoop.Users.Infrastructure\\Migrations\\20250827135949_Mg_User_008.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9497872-12DE-492F-B307-92C5E8BD8D36}|ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.infrastructure\\persistence\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9497872-12DE-492F-B307-92C5E8BD8D36}|ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj|solutionrelative:elearningiskoop.users.infrastructure\\persistence\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1308FC72-DF2F-4E4B-BEE7-0370A370DAA3}|ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1308FC72-DF2F-4E4B-BEE7-0370A370DAA3}|ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj|solutionrelative:elearningiskoop.users.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9497872-12DE-492F-B307-92C5E8BD8D36}|ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.infrastructure\\persistence\\configurations\\rolepermissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9497872-12DE-492F-B307-92C5E8BD8D36}|ELearningIskoop.Users.Infrastructure\\ELearningIskoop.Users.Infrastructure.csproj|solutionrelative:elearningiskoop.users.infrastructure\\persistence\\configurations\\rolepermissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1308FC72-DF2F-4E4B-BEE7-0370A370DAA3}|ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.domain\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1308FC72-DF2F-4E4B-BEE7-0370A370DAA3}|ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj|solutionrelative:elearningiskoop.users.domain\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3343CE45-F6FB-48D6-A936-628CB75BD1C6}|ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.buildingblocks.domain\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3343CE45-F6FB-48D6-A936-628CB75BD1C6}|ELearningIskoop.BuildingBlocks.Domain\\ELearningIskoop.BuildingBlocks.Domain.csproj|solutionrelative:elearningiskoop.buildingblocks.domain\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A52766E-1767-42B3-B314-CD4AF1B8DD44}|ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.application\\eventhandlers\\rolecreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A52766E-1767-42B3-B314-CD4AF1B8DD44}|ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj|solutionrelative:elearningiskoop.users.application\\eventhandlers\\rolecreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1308FC72-DF2F-4E4B-BEE7-0370A370DAA3}|ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.domain\\valueobjects\\permissions\\scope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1308FC72-DF2F-4E4B-BEE7-0370A370DAA3}|ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj|solutionrelative:elearningiskoop.users.domain\\valueobjects\\permissions\\scope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1308FC72-DF2F-4E4B-BEE7-0370A370DAA3}|ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.domain\\valueobjects\\permissions\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1308FC72-DF2F-4E4B-BEE7-0370A370DAA3}|ELearningIskoop.Users.Domain\\ELearningIskoop.Users.Domain.csproj|solutionrelative:elearningiskoop.users.domain\\valueobjects\\permissions\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A52766E-1767-42B3-B314-CD4AF1B8DD44}|ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.application\\commands\\createrole\\createrolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A52766E-1767-42B3-B314-CD4AF1B8DD44}|ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj|solutionrelative:elearningiskoop.users.application\\commands\\createrole\\createrolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52138894-E8C7-1B22-968F-C3BF4FE13A0C}|ELearningIskoop.API\\ELearningIskoop.API.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52138894-E8C7-1B22-968F-C3BF4FE13A0C}|ELearningIskoop.API\\ELearningIskoop.API.csproj|solutionrelative:elearningiskoop.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\Migrations\\20250827131746_Mg_Outbox_002.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ELearningIskoop.BuildingBlocks.Infrastructure\\Migrations\\20250827131746_Mg_Outbox_002.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D350C03-4F13-4609-8E9E-182861E4BABC}|ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.buildingblocks.infrastructure\\outbox\\outboxevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D350C03-4F13-4609-8E9E-182861E4BABC}|ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj|solutionrelative:elearningiskoop.buildingblocks.infrastructure\\outbox\\outboxevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D350C03-4F13-4609-8E9E-182861E4BABC}|ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.buildingblocks.infrastructure\\outbox\\outboxdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D350C03-4F13-4609-8E9E-182861E4BABC}|ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj|solutionrelative:elearningiskoop.buildingblocks.infrastructure\\outbox\\outboxdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D350C03-4F13-4609-8E9E-182861E4BABC}|ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.buildingblocks.infrastructure\\outbox\\outboxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D350C03-4F13-4609-8E9E-182861E4BABC}|ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj|solutionrelative:elearningiskoop.buildingblocks.infrastructure\\outbox\\outboxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D350C03-4F13-4609-8E9E-182861E4BABC}|ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.buildingblocks.infrastructure\\backgroundservices\\outboxeventprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D350C03-4F13-4609-8E9E-182861E4BABC}|ELearningIskoop.BuildingBlocks.Infrastructure\\ELearningIskoop.BuildingBlocks.Infrastructure.csproj|solutionrelative:elearningiskoop.buildingblocks.infrastructure\\backgroundservices\\outboxeventprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A52766E-1767-42B3-B314-CD4AF1B8DD44}|ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.application\\services\\rolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A52766E-1767-42B3-B314-CD4AF1B8DD44}|ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj|solutionrelative:elearningiskoop.users.application\\services\\rolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A52766E-1767-42B3-B314-CD4AF1B8DD44}|ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.application\\commands\\createrole\\createrolecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A52766E-1767-42B3-B314-CD4AF1B8DD44}|ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj|solutionrelative:elearningiskoop.users.application\\commands\\createrole\\createrolecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A52766E-1767-42B3-B314-CD4AF1B8DD44}|ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj|c:\\users\\muratbegar\\source\\repos\\mb\\elearningiskoop.users.application\\commands\\createrole\\createrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A52766E-1767-42B3-B314-CD4AF1B8DD44}|ELearningIskoop.Users.Application\\ELearningIskoop.Users.Application.csproj|solutionrelative:elearningiskoop.users.application\\commands\\createrole\\createrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,9 +93,152 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 223,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PermissionDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\Services\\PermissionDomainService.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Application\\Services\\PermissionDomainService.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\Services\\PermissionDomainService.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Application\\Services\\PermissionDomainService.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAkwGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T14:10:04.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPermissionDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\Services\\IPermissionDomainService.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Domain\\Services\\IPermissionDomainService.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\Services\\IPermissionDomainService.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Domain\\Services\\IPermissionDomainService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T14:02:58.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250827135949_Mg_User_008.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\Migrations\\20250827135949_Mg_User_008.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Infrastructure\\Migrations\\20250827135949_Mg_User_008.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\Migrations\\20250827135949_Mg_User_008.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Infrastructure\\Migrations\\20250827135949_Mg_User_008.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwDkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:59:49.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\Persistence\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Infrastructure\\Persistence\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\Persistence\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Infrastructure\\Persistence\\Configurations\\RoleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:44:47.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Domain\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAswBEBAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:42:25.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RolePermissionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\Persistence\\Configurations\\RolePermissionConfiguration.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Infrastructure\\Persistence\\Configurations\\RolePermissionConfiguration.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Infrastructure\\Persistence\\Configurations\\RolePermissionConfiguration.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Infrastructure\\Persistence\\Configurations\\RolePermissionConfiguration.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAADwv0oAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:37:31.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.BuildingBlocks.Domain\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Domain\\BaseEntity.cs",
+              "RelativeToolTip": "ELearningIskoop.BuildingBlocks.Domain\\BaseEntity.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAiwAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:35:21.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Scope.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\ValueObjects\\Permissions\\Scope.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Domain\\ValueObjects\\Permissions\\Scope.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\ValueObjects\\Permissions\\Scope.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Domain\\ValueObjects\\Permissions\\Scope.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwEoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:32:25.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Action.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\ValueObjects\\Permissions\\Action.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Domain\\ValueObjects\\Permissions\\Action.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\ValueObjects\\Permissions\\Action.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Domain\\ValueObjects\\Permissions\\Action.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:32:05.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\Entities\\Permission.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Domain\\Entities\\Permission.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Domain\\Entities\\Permission.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Domain\\Entities\\Permission.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAADwv2YAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:22:34.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoleCreatedEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\EventHandlers\\RoleCreatedEventHandler.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Application\\EventHandlers\\RoleCreatedEventHandler.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\EventHandlers\\RoleCreatedEventHandler.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Application\\EventHandlers\\RoleCreatedEventHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:19:13.903Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -26,15 +249,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.API\\Program.cs",
-              "RelativeDocumentMoniker": "ELearningIskoop.API\\Program.cs",
-              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\MBIskoopElearning\\elaerningiskoop\\ELearningIskoop.API\\Program.cs",
-              "RelativeToolTip": "ELearningIskoop.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAA0AAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "20250827131746_Mg_Outbox_002.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\Migrations\\20250827131746_Mg_Outbox_002.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.BuildingBlocks.Infrastructure\\Migrations\\20250827131746_Mg_Outbox_002.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\Migrations\\20250827131746_Mg_Outbox_002.cs",
+              "RelativeToolTip": "ELearningIskoop.BuildingBlocks.Infrastructure\\Migrations\\20250827131746_Mg_Outbox_002.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T07:33:22.846Z",
+              "WhenOpened": "2025-08-27T13:17:46.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OutboxEvent.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\Outbox\\OutboxEvent.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.BuildingBlocks.Infrastructure\\Outbox\\OutboxEvent.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\Outbox\\OutboxEvent.cs",
+              "RelativeToolTip": "ELearningIskoop.BuildingBlocks.Infrastructure\\Outbox\\OutboxEvent.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:17:18.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OutboxDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\Outbox\\OutboxDbContext.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.BuildingBlocks.Infrastructure\\Outbox\\OutboxDbContext.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\Outbox\\OutboxDbContext.cs",
+              "RelativeToolTip": "ELearningIskoop.BuildingBlocks.Infrastructure\\Outbox\\OutboxDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAArwBMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:17:16.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OutboxService.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\Outbox\\OutboxService.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.BuildingBlocks.Infrastructure\\Outbox\\OutboxService.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\Outbox\\OutboxService.cs",
+              "RelativeToolTip": "ELearningIskoop.BuildingBlocks.Infrastructure\\Outbox\\OutboxService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAjwCoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:17:14.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OutboxEventProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\BackgroundServices\\OutboxEventProcessor.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.BuildingBlocks.Infrastructure\\BackgroundServices\\OutboxEventProcessor.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.BuildingBlocks.Infrastructure\\BackgroundServices\\OutboxEventProcessor.cs",
+              "RelativeToolTip": "ELearningIskoop.BuildingBlocks.Infrastructure\\BackgroundServices\\OutboxEventProcessor.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAWwJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:17:06.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateRoleCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\Commands\\CreateRole\\CreateRoleCommandValidator.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Application\\Commands\\CreateRole\\CreateRoleCommandValidator.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\Commands\\CreateRole\\CreateRoleCommandValidator.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Application\\Commands\\CreateRole\\CreateRoleCommandValidator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:11:58.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RoleManager.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\Services\\RoleManager.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Application\\Services\\RoleManager.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\Services\\RoleManager.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Application\\Services\\RoleManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:11:58.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateRoleCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\Commands\\CreateRole\\CreateRoleCommandHandler.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Application\\Commands\\CreateRole\\CreateRoleCommandHandler.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\Commands\\CreateRole\\CreateRoleCommandHandler.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Application\\Commands\\CreateRole\\CreateRoleCommandHandler.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:11:42.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateRoleCommand.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\Commands\\CreateRole\\CreateRoleCommand.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.Users.Application\\Commands\\CreateRole\\CreateRoleCommand.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.Users.Application\\Commands\\CreateRole\\CreateRoleCommand.cs",
+              "RelativeToolTip": "ELearningIskoop.Users.Application\\Commands\\CreateRole\\CreateRoleCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:11:26.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.API\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "ELearningIskoop.API\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\muratbegar\\source\\repos\\mb\\ELearningIskoop.API\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "ELearningIskoop.API\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:11:19.193Z",
               "EditorCaption": ""
             }
           ]

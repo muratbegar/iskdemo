@@ -9,6 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ELearningIskoop.Shared.Domain.ValueObjects;
+using ELearningIskoop.Users.Domain.Entities;
 using ELearningIskoop.Users.Domain.Repos;
 
 namespace ELearningIskoop.Users.Application.Services
@@ -18,13 +20,17 @@ namespace ELearningIskoop.Users.Application.Services
 
         private readonly IUserRepository _userRepository;
         private readonly IRoleRepository _roleRepository;
+        private readonly IUserEmailVerificationRepository _userEmailVerificationRepository;
+        private readonly IPasswordResetRepository _passwordResetRepository;
         private readonly IUnitOfWork _unitOfWork;
         private readonly ILogger<UserManager> _logger;
 
-        public UserManager(IUserRepository userRepository, IRoleRepository roleRepository, IUnitOfWork unitOfWork, ILogger<UserManager> logger)
+        public UserManager(IUserRepository userRepository, IRoleRepository roleRepository, IUnitOfWork unitOfWork, IUserEmailVerificationRepository userEmailVerificationRepository,IPasswordResetRepository passwordResetRepository, ILogger<UserManager> logger)
         {
             _userRepository = userRepository;
             _roleRepository = roleRepository;
+            _userEmailVerificationRepository = userEmailVerificationRepository;
+            _passwordResetRepository = passwordResetRepository;
             _unitOfWork = unitOfWork;
             _logger = logger;
         }
@@ -34,8 +40,8 @@ namespace ELearningIskoop.Users.Application.Services
             try
             {
                 //Email benzersizlik kontrolü
-                var existingUser = await _userRepository.GetByEmailAsync(dto.Email.Value);
-                if (existingUser == null)
+                var existingUser = await _userRepository.GetByEmailAsync(dto.Email);
+                if (existingUser != null)
                 {
                     return Result.Failure<User>("Email is already registered");
                 }
@@ -49,6 +55,15 @@ namespace ELearningIskoop.Users.Application.Services
                 {
                     user.AssignRole(defaultRole);
                 }
+
+                //Doğrulama kodu oluştur ve ata
+                var verificationCode = Random.Shared.Next(100000, 999999).ToString();
+                var verification =
+                    new UserEmailVerification(user.Email, verificationCode, DateTime.UtcNow.AddMinutes(3));
+                await _userEmailVerificationRepository.AddAsync(verification);
+
+
+
 
                 await _userRepository.AddAsync(user);
                 await _unitOfWork.SaveChangesAsync();
@@ -79,7 +94,7 @@ namespace ELearningIskoop.Users.Application.Services
 
         }
 
-        public async Task<Result<User>> GetUserByEmailAsync(string email)
+        public async Task<Result<User>> GetUserByEmailAsync(Email email)
         {
             try
             {
@@ -95,7 +110,7 @@ namespace ELearningIskoop.Users.Application.Services
 
         }
 
-        public async Task<Result<User>> AuthenticateAsync(string email, string password, string ipAddress)
+        public async Task<Result<User>> AuthenticateAsync(Email email, string password, string ipAddress)
         {
             try
             {
@@ -151,22 +166,29 @@ namespace ELearningIskoop.Users.Application.Services
             }
         }
 
-        public async Task<Result> ResetPasswordAsync(string email, string newPassword)
+        public async Task<Result> ResetPasswordAsync(Email email, string newPassword, string token)
         {
             var user = await _userRepository.GetByEmailAsync(email);
             if (user == null)
             {
                 return Result.Failure("User not found");
             }
+            
+            var resetPassword = await _passwordResetRepository.GetByUserIdAsync(user.ObjectId);
 
-            user.ResetPassword(newPassword);
+            if (resetPassword.Token != token)
+            {
+                return Result.Failure("Şifre resetlenemedi");
+            }
+
+            user.ResetPassword(newPassword,user.ObjectId);
             await _userRepository.UpdateAsync(user);
             await _unitOfWork.SaveChangesAsync();
 
             return Result.Success();
         }
 
-        public async Task<Result> VerifyEmailAsync(int userId)
+        public async Task<Result> VerifyEmailAsync(int userId,string code)
         {
             var user = await _userRepository.GetByIdAsync(userId);
             if (user == null)
@@ -176,8 +198,43 @@ namespace ELearningIskoop.Users.Application.Services
 
             try
             {
-                user.VerifyEmail();
+
+                var verification = await _userEmailVerificationRepository.GetByUserMailAsync(user.Email);
+                if (verification == null && !verification.IsValid(code))
+                {
+                    return Result.Failure("Invalid or expired verification code");
+                }
+
+                if (verification.Code != code)
+                {
+                    return Result.Failure("Invalid or expired verification code");
+                }
+                
+                
+                if (verification.Code == code)
+                {
+                    user.VerifyEmail(userId);
+                    verification.MarkAsUsed();
+                    _userEmailVerificationRepository.UpdateAsync(verification);
+                }
+                
                 await _userRepository.UpdateAsync(user);
+                await _unitOfWork.SaveChangesAsync();
+                return Result.Success();
+            }
+            catch (Exception ex)
+            {
+                return Result.Failure(ex.Message);
+            }
+        }
+
+        public async Task<Result> ForgotPasswordAsync(PasswordResetToken tokenDto)
+        {
+          
+            try
+            {
+
+                await _passwordResetRepository.AddAsync(tokenDto,CancellationToken.None);
                 await _unitOfWork.SaveChangesAsync();
                 return Result.Success();
             }

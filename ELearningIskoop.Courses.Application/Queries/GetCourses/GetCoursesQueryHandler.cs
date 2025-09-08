@@ -42,7 +42,7 @@ namespace ELearningIskoop.Courses.Application.Queries.GetCourses
                 ObjectId = course.ObjectId,
                 Title = course.Title,
                 Description = TruncateDescription(course.Description, 200),
-                InstructorName = course.InstructorName.FullName,
+                InstructorName = course.InstructorName.FirstName + course.InstructorName.LastName,
                 FormattedPrice = course.Price.GetFormattedAmount(),
                 IsFree = course.IsFree,
                 Level = course.Level.GetDescription(),
